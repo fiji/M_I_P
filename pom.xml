@@ -13,7 +13,7 @@
 	</parent>
 
 	<artifactId>M_I_P</artifactId>
-	<version>2.0.0</version>
+	<version>2.0.1-SNAPSHOT</version>
 
 	<name>plugins/M_I_P.jar</name>
 	<description></description>
