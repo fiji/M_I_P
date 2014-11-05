@@ -57,18 +57,44 @@ San Juan, PR 00936-5067
 */
 
 
-import ij.plugin.*;
-import java.awt.*;
-import java.io.*;
-import java.util.*;
-import ij.*;
-import ij.io.*;
-import ij.process.*;
-import ij.gui.*;
-import javax.swing.*;
-import java.awt.event.*;
-import javax.swing.event.*;
-import ij.plugin.filter.*;
+import ij.IJ;
+import ij.ImagePlus;
+import ij.gui.GenericDialog;
+import ij.io.FileSaver;
+import ij.plugin.BrowserLauncher;
+import ij.plugin.PlugIn;
+import ij.process.ByteProcessor;
+import ij.process.ColorProcessor;
+import ij.process.FloatProcessor;
+import ij.process.ImageProcessor;
+import ij.process.MedianCut;
+import ij.process.ShortProcessor;
+
+import java.awt.GridBagConstraints;
+import java.awt.GridLayout;
+import java.awt.Image;
+import java.awt.Insets;
+import java.awt.Panel;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.ItemEvent;
+import java.awt.event.ItemListener;
+import java.io.File;
+import java.util.Hashtable;
+
+import javax.swing.JButton;
+import javax.swing.JComboBox;
+import javax.swing.JFileChooser;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JSlider;
+import javax.swing.JTextField;
+import javax.swing.SwingConstants;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
 
 public class MultipleImageProcessor implements PlugIn{ 
