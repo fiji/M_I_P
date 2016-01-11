@@ -17,6 +17,7 @@
 
 	<name>plugins/M_I_P.jar</name>
 	<description></description>
+	<inceptionYear>2005</inceptionYear>
 
 	<scm>
 		<connection>scm:git:git://github.com/fiji/M_I_P</connection>
